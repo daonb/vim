@@ -1,6 +1,18 @@
-# Mac OS X Finder control file.
-.DS_Store
+/autoload/plug.vim
+/autoload/plug.vim.old
+/plugged
 
-# Vim backup & swap folder (.swp and ~* files)
-/bundle/
+tags
+.tags
+.vimtags
 
+.netrwhist
+
+# Vim backup, undo, swp folders.
+/undo
+/swp
+/view
+
+# Stub files, so only the dir will be committed (but not the files inside).
+!/undo/.empty
+!/swp/.empty
